@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeSurface">
+        <attr name="state" format="enum">
+            <enum name="left_up" value="0"/>
+            <enum name="right_up" value="1"/>
+            <enum name="left_down" value="2"/>
+            <enum name="right_down" value="3"/>
+        </attr>
+        
+        <attr name="speed" format="enum">
+            <enum name="slow" value="0" />
+            <enum name="middle" value="1"/>
+            <enum name="fast" value="2"/>
+        </attr>
+        
+        <attr name="src" format="reference" />
+        <attr name="scale" format="float" />
+        <attr name="step" format="integer" />
+    </declare-styleable>
+</resources>
