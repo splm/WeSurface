@@ -29,6 +29,9 @@ WeSurface
         <attr name="step" format="integer" />
     </declare-styleable>
 ```
+###使用方法
+                  第一种：可以将attr.xml文件和me.splm.wesurface.MySurfaceView，复制到项目中；
+                  第二种：通过依赖项目的方式（推荐）；
 ######布局文件中（第一步）
 ```Java
 xmlns:WeSurface="http://schemas.android.com/apk/res-auto" //声明命名空间
