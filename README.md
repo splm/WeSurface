@@ -3,6 +3,10 @@ WeSurface
 ###写在最前面：
       当前这个仅仅只能算作是一个demo，应为开发时间较短，并且并没有提供丰富的api，所以距离框架还有些距离，
     不过会抽出时间进行维护。
+    预计完成效果：
+    1.提供更多的动画效果（目前只支持位移动画）；
+    2.提供更多的监听回调；
+    3.优化性能。
 ###效果：
 ![github](https://github.com/splm/WeSurface/blob/master/WeSurface/SCR_201412_clip.gif "github")
 ###代码：
@@ -30,8 +34,8 @@ WeSurface
     </declare-styleable>
 ```
 ###使用方法
-                  第一种：可以将attr.xml文件和me.splm.wesurface.MySurfaceView，复制到项目中；
-                  第二种：通过依赖项目的方式（推荐）；
+            第一种：可以将attr.xml文件和me.splm.wesurface.MySurfaceView，复制到项目中；
+            第二种：通过依赖项目的方式（推荐）；
 ######布局文件中（第一步）
 ```Java
 xmlns:WeSurface="http://schemas.android.com/apk/res-auto" //声明命名空间
